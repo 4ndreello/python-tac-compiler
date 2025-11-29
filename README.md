@@ -234,10 +234,8 @@ MIT License - veja o arquivo LICENSE para detalhes.
 
 ## Autores
 
-Henrique Scudeller de Oliveira 
-
-Gabriel Andreello 
-
-Ricardo Altever Alves Lessa 
+- Henrique Scudeller de Oliveira
+- Gabriel Andreello
+- Ricardo Altever Alves Lessa
 
 Projeto educacional para disciplina de Compiladores.
