@@ -1,5 +1,3 @@
-
-
 from src.frontend.lexer import Lexer
 from src.frontend.parser import Parser
 from src.analysis.semantic import SemanticAnalyzer, SemanticError

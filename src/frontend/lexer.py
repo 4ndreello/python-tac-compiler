@@ -2,6 +2,8 @@ import re
 from typing import List, Tuple
 
 class Lexer:
+    """Analisador léxico que converte código fonte em tokens."""
+
     def __init__(self, source: str):
         self.source = source
         self.tokens: List[Tuple[str, str]] = []

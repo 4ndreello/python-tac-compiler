@@ -4,6 +4,8 @@ class SemanticError(Exception):
     pass
 
 class SemanticAnalyzer:
+    """Analisador semântico que valida declarações e uso de variáveis."""
+
     def __init__(self):
         self.symbol_table = {}
 

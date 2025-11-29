@@ -1,5 +1,3 @@
-
-
 from src.frontend.lexer import Lexer
 from src.frontend.parser import Parser
 from src.analysis.semantic import SemanticAnalyzer
@@ -45,8 +43,7 @@ def print_comparison(source_code, title):
     
     print("\nCOMPARISON: ORIGINAL vs OPTIMIZED")
     print("-" * 80)
-    
-    # Formatar instruções
+
     original_lines = [format_instruction(*instr) for instr in original_ir]
     optimized_lines = [format_instruction(*instr) for instr in optimized_ir]
     

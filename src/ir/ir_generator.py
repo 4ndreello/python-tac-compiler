@@ -1,6 +1,8 @@
 from src.frontend.ast_nodes import Program, Declaration, Assignment, BinaryOp, Number, Variable
 
 class IRGenerator:
+    """Gerador de código intermediário em formato TAC (Three-Address Code)."""
+
     def __init__(self):
         self.instructions = []
         self.temp_counter = 1

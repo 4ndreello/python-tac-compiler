@@ -2,6 +2,8 @@ from typing import List, Tuple
 from .ast_nodes import Program, Declaration, Assignment, BinaryOp, Number, Variable
 
 class Parser:
+    """Analisador sintático que constrói a AST a partir de tokens."""
+
     def __init__(self, tokens: List[Tuple[str, str]]):
         self.tokens = tokens
         self.pos = 0
