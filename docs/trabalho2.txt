@@ -1,0 +1,86 @@
+Trabalho: Analise Semantica e Geragdo/Otimizacdo de Cédigo
+Intermediario
+
+Objetivo
+
+O objetivo deste trabalho é integrar os conhecimentos tedricos e praticos sobre as etapas
+
+intermedidrias de um compilador, com énfase em:
+
+® Analise semantica — verificagdo de tipos, escopos e coeréncia de declaracdes;
+
+* Geracdo de cédigo intermedidrio — construgdo de uma representacdo intermediaria (IR) a
+partir da arvore sintatica abstrata (AST);
+
+© Otimizagdo de cdédigo intermediario — aplicagdo de técnicas simples de otimizacao local e
+global para reduzir redundancias e melhorar a eficiéncia.
+
+Parte teérica (apresentacdo)
+
+A apresentacdo deve conter de 10 a 15 slides e abordar:
+© Visdo geral do papel da analise semantica em compiladores, incluindo:
+¢ Principais erros detectados nessa fase (ex.: tipos incompativeis, varidveis nado
+declaradas, escopo incorreto);
+* Relacdo entre analise sintatica e semantica;
+e Estruturas de dados usadas (ex.: tabela de simbolos).
+© Descrigdo dos tipos de cddigo intermedidrio, apresentando e comparando:
+e Trés enderecos (Three-Address Code);
+e Representagdes baseadas em arvores (AST).
+© Técnicas classicas de otimizacado de cédigo intermediario:
+¢ Propagacdo de constantes;
+¢ Eliminagdo de cédigo morto (Dead Code Elimination);
+¢ Common Subexpression Elimination (CSE).
+Cada técnica deve ser explicada com um exemplo simples e um diagrama que ilustre a
+transformagao do cddigo.
+
+Parte pratica (implementacdo)
+
+Implemente em Python ou C/C++ um médulo de compilador simplificado que:
+
+1. Realize analise semantica sobre uma linguagem de mini-express6es, por exemplo:
+
+int a;
+
+int b;
+a=3 + 2;
+b=a* (a - 1);
+O programa deve:
+¢ Detectar erros de tipo e variaveis nao declaradas;
+¢ Montar uma tabela de simbolos.
+
+2. Gere cddigo intermedidrio na forma de cdédigo de trés enderecos (TAC).
+Exemplo:
+
+tl =3 +2
+a=tl
+t2 =a-l
+t3 =a * t2
+b = t3
+
+3. Implemente ao menos duas otimiza¢gdes, como:
+
+* Propagacao de constantes;
+
+© Eliminagao de subexpress6es comuns;
+
+© Eliminagao de cédigo morto.
+
+O céddigo final otimizado deve ser apresentado lado a lado com o cédigo intermediario
+original.
+
+4. Saida esperada:
+
+© Impressdo da tabela de simbolos;
+© Codigo intermediario original;
+* Cédigo intermediario otimizado.
+
+Entrega e Formato
+Slides contendo a apresentagdo detalhada do tema deverdo ser enviados em formato
+
+PDF via MS Teams, dentro do prazo estipulado. O cdédigo deve ser colocado em um
+arquivo .ZIP separado.
+
+Grupo
+O trabalho pode ser realizado em grupos de até 4 pessoas. Coloque nome e RA dos
+
+integrantes do grupo no 10 slide.
